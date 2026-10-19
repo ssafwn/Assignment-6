@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Personal Profile</title>
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Safwan</h1>
+    <nav>
+      <a href="#about">About</a> |
+      <a href="#academic">Academic Info</a> |
+      <a href="#media">Media</a> |
+      <a href="#more">More About Me</a> |
+      <a href="#contact">Contact Form</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        My name is Safwan. I am a B.Sc. student in Computer Science and Engineering
+        at United International University (UIU), Bangladesh. I enjoy programming
+        and learning new technology.
+      </p>
+        <b>Bold text:</b> I love sleeping. <br>
+        <i>Italic text:</i> I am always sleeping. <br>
+        <u>Underlined text:</u> Sleeping is fun. <br>
+        <mark>Highlighted text:</mark> This is my first HTML assignment!
+      </p>
+      <img
+        src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><rect width='160' height='160' fill='%23dbe7f5'/><circle cx='80' cy='62' r='30' fill='%231f4e79'/><rect x='35' y='100' width='90' height='50' rx='25' fill='%231f4e79'/></svg>"
+        alt="My profile picture" width="160" height="160">
+    </section>
+    <section id="academic">
+      <h2>Academic Information</h2>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Level</th>
+            <th>Institution</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>University</td>
+            <td>United International University (UIU)</td>
+            <td>B.Sc. in CSE (ongoing)</td>
+          </tr>
+          <tr>
+            <td>College</td>
+            <td>South Point</td>
+            <td>HSC</td>
+          </tr>
+          <tr>
+            <td>School</td>
+            <td>South Point</td>
+            <td>SSC</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="media">
+      <h2>Multimedia</h2>
+
+      <h3>Video</h3>
+      <video width="320" controls>
+        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <h3>Audio</h3>
+      <audio controls>
+        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+      </audio>
+    </section>
+
+    <section id="more">
+      <h2>More About Me</h2>
+
+      <details>
+        <summary>Click to read more about me</summary>
+        <p>
+          I am interested in software development and I am practicing programming
+          every day. My goal is to build a career in technology.
+        </p>
+      </details>
+
+      <br>
+      <button type="button" onclick="alert('Thanks for visiting my page!')">Click Me</button>
+    </section>
+    <section id="contact">
+      <h2>Contact Form</h2>
+      <form action="#" method="post">
+
+        <p>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required>
+        </p>
+
+        <p>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required>
+        </p>
+
+        <p>
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password" required>
+        </p>
+
+        <p>
+          Gender:<br>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Other</label>
+        </p>
+
+        <p>
+          Hobbies:<br>
+          <input type="checkbox" id="coding" name="hobbies" value="coding">
+          <label for="coding">Coding</label>
+          <input type="checkbox" id="reading" name="hobbies" value="reading">
+          <label for="reading">Reading</label>
+          <input type="checkbox" id="gaming" name="hobbies" value="gaming">
+          <label for="gaming">Gaming</label>
+          <input type="checkbox" id="music" name="hobbies" value="music">
+          <label for="music">Music</label>
+        </p>
+
+        <p>
+          <input type="submit" value="Submit">
+        </p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Safwan | United International University</p>
+  </footer>
+
+</body>
+</html>
